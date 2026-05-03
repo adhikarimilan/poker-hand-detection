@@ -4,20 +4,25 @@ This repository contains a real time computer vision system to detect playing ca
 
 ## Features
 
-* Detects all 52 standard playing cards.
-* Processes live webcam feeds or video files.
-* Uses YOLO for high speed object detection.
-* Includes custom logic to identify ten poker hand rankings.
-* Provides visual overlays for detected cards and the final hand result.
+- Detects all 52 standard playing cards.
+- Processes live webcam feeds or video files.
+- Uses YOLO for high speed object detection.
+- Includes custom logic to identify ten poker hand rankings.
+- Provides visual overlays for detected cards and the final hand result.
 
 ## Technology Stack
 
-* Python: Core programming language.
-* YOLO (Ultralytics): Object detection model.
-* OpenCV: Video processing and frame manipulation.
-* CVZone: Visual overlays and text rendering.
-* Roboflow: Source for the card dataset.
-* Google Colab: Environment used for model training.
+- Python: Core programming language.
+- YOLO (Ultralytics): Object detection model.
+- OpenCV: Video processing and frame manipulation.
+- CVZone: Visual overlays and text rendering.
+- Roboflow: Source for the card dataset.
+- Google Colab: Environment used for model training.
+
+## Screenshots
+
+![Demo1](/resources/images/demo1.png "This is a demo 1 image.")
+![Demo2](/resources/images/demo2.png "This is a demo 2 image.")
 
 ## Installation
 
@@ -45,13 +50,13 @@ The system follows a three step process:
 
 The system evaluates the following hands in descending order of rank:
 
-* Royal Flush
-* Straight Flush
-* Four of a Kind
-* Full House
-* Flush
-* Straight
-* Three of a Kind
-* Two Pair
-* One Pair
-* High Card
+- Royal Flush
+- Straight Flush
+- Four of a Kind
+- Full House
+- Flush
+- Straight
+- Three of a Kind
+- Two Pair
+- One Pair
+- High Card

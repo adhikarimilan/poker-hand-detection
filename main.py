@@ -6,12 +6,12 @@ import math
 import pokerhand
 
 #detection using webcam
-#cap=cv2.VideoCapture(0);
-#cap.set(3, 640)
-#cap.set(4, 480)
+cap=cv2.VideoCapture(0);
+cap.set(3, 640)
+cap.set(4, 480)
 
 # detection of vehicles in video file
-cap = cv2.VideoCapture("./resources/videos/poker_hand.mp4")
+#cap = cv2.VideoCapture("./resources/videos/poker_hand.mp4")
 
 model = YOLO('./weights/pokerhand.pt')
 
